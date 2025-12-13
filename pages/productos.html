@@ -1,166 +1,207 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Productos - GYM-FIT</title>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="./assets/css/styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Productos | GYM-FIT</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/styles.css">
 </head>
+
 <body>
 
-<header>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <section class="container">
-      <a class="navbar-brand" href="../index.html">
-        <img src="./assets/img/foto-logo.png" alt="Logo GYM-FIT" class="img-fluid" style="height:50px;">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <section class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
-          <li class="nav-item"><a class="nav-link active" aria-current="page" href="./productos.html">Productos</a></li>
-          <li class="nav-item"><a class="nav-link" href="./contacto.html">Contacto</a></li>
-        </ul>
-      </section>
+  <!-- HEADER / NAVBAR -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+
+        <a class="navbar-brand" href="../index.html">
+          <img src="../assets/img/foto-logo.png" alt="Logo GYM-FIT" style="height:50px;">
+        </a>
+
+        <button class="navbar-toggler" type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+  </header>
+
+  <!-- MAIN -->
+  <main class="container my-5">
+    <h1 class="mb-4">Nuestros Productos</h1>
+
+    <!-- EQUIPAMIENTO -->
+    <section class="mb-5">
+      <h2 class="mb-3">Equipamiento</h2>
+      <div class="row g-4">
+
+        <div class="col-sm-6 col-md-4">
+          <div class="card h-100">
+            <img src="../assets/equipamiento/banco de pesas.webp" class="card-img-top" alt="Banco de pesas" loading="lazy">
+            <div class="card-body">
+              <h5 class="card-title">Banco de pesas</h5>
+              <p class="card-text">Banco ajustable ideal para entrenamientos de fuerza completos.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4">
+          <div class="card h-100">
+            <img src="../assets/equipamiento/barra dominadas.webp" class="card-img-top" alt="Barra de dominadas" loading="lazy">
+            <div class="card-body">
+              <h5 class="card-title">Barra de dominadas</h5>
+              <p class="card-text">Perfecta para fortalecer espalda y brazos.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4">
+          <div class="card h-100">
+            <img src="../assets/equipamiento/bicicleta fija.webp" class="card-img-top" alt="Bicicleta fija" loading="lazy">
+            <div class="card-body">
+              <h5 class="card-title">Bicicleta fija</h5>
+              <p class="card-text">Ideal para entrenamientos de cardio y resistencia.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4">
+          <div class="card h-100">
+            <img src="../assets/equipamiento/multi gym.webp" class="card-img-top" alt="Multigym" loading="lazy">
+            <div class="card-body">
+              <h5 class="card-title">Multigym</h5>
+              <p class="card-text">Máquina completa para trabajar todo el cuerpo.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4">
+          <div class="card h-100">
+            <img src="../assets/equipamiento/kit barra y mancuernas.webp" class="card-img-top" alt="Kit barra y mancuernas" loading="lazy">
+            <div class="card-body">
+              <h5 class="card-title">Kit barra y mancuernas</h5>
+              <p class="card-text">Ideal para rutinas de fuerza y tonificación.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
     </section>
-  </nav>
-</header>
 
-<main class="container my-5">
-  <h1 class="mb-4">Productos</h1>
+    <!-- SUPLEMENTOS -->
+    <section class="mb-5">
+      <h2 class="mb-3">Suplementos</h2>
+      <div class="row g-4">
 
-  <!-- Equipamientos -->
-  <h2 class="mb-3">Equipamientos</h2>
-  <div class="row">
-    <div class="col-md-4 mb-4">
-      <div class="card">
-        <img src="../assets/equipamiento/banco de pesas.webp" class="card-img-top" alt="Banco de pesas">
-        <div class="card-body">
-          <h5 class="card-title">Banco de pesas</h5>
-          <p class="card-text">Banco ajustable para entrenamientos de fuerza completos.</p>
+        <div class="col-sm-6 col-md-4">
+          <div class="card h-100">
+            <img src="../assets/suplementos/combo 2 whey protein mas shaker.webp" class="card-img-top" alt="Combo whey protein con shaker" loading="lazy">
+            <div class="card-body">
+              <h5 class="card-title">Combo whey protein + shaker</h5>
+              <p class="card-text">Ideal para aumentar masa muscular y recuperación.</p>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-    <div class="col-md-4 mb-4">
-      <div class="card">
-        <img src="../assets/equipamiento/barra dominadas.webp" class="card-img-top" alt="Barra dominadas">
-        <div class="card-body">
-          <h5 class="card-title">Barra de dominadas</h5>
-          <p class="card-text">Ideal para fortalecer espalda y brazos.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 mb-4">
-      <div class="card">
-        <img src="../assets/equipamiento/bicicleta fija.webp" class="card-img-top" alt="Bicicleta fija">
-        <div class="card-body">
-          <h5 class="card-title">Bicicleta fija</h5>
-          <p class="card-text">Para cardio y resistencia en casa o gimnasio.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 mb-4">
-      <div class="card">
-        <img src="../assets/equipamiento/multi gym.webp" class="card-img-top" alt="Multigym">
-        <div class="card-body">
-          <h5 class="card-title">Multigym</h5>
-          <p class="card-text">Máquina completa para entrenar varios grupos musculares.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 mb-4">
-      <div class="card">
-        <img src="../assets/equipamiento/kit barra y mancuernas.webp" class="card-img-top" alt="Kit mancuernas y barra">
-        <div class="card-body">
-          <h5 class="card-title">Kit mancuernas y barra</h5>
-          <p class="card-text">Ideal para ejercicios de fuerza y tonificación.</p>
-        </div>
-      </div>
-    </div>
-  </div>
 
-  <!-- Suplementos -->
-  <h2 class="mb-3 mt-5">Suplementos</h2>
-  <div class="row">
-    <div class="col-md-4 mb-4">
-      <div class="card">
-        <img src="../assets/suplementos/combo 2 whey protein mas shaker.webp" class="card-img-top" alt="Combo 2 whey protein mas shaker">
-        <div class="card-body">
-          <h5 class="card-title">Combo 2 whey protein mas shaker</h5>
-          <p class="card-text">Aumenta masa muscular y ayuda en la recuperación.</p>
+        <div class="col-sm-6 col-md-4">
+          <div class="card h-100">
+            <img src="../assets/suplementos/creatina.png" class="card-img-top" alt="Creatina" loading="lazy">
+            <div class="card-body">
+              <h5 class="card-title">Creatina</h5>
+              <p class="card-text">Mejora fuerza, potencia y rendimiento.</p>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-    <div class="col-md-4 mb-4">
-      <div class="card">
-        <img src="../assets/suplementos/creatina.webp" class="card-img-top" alt="Creatina">
-        <div class="card-body">
-          <h5 class="card-title">Creatina</h5>
-          <p class="card-text">Mejora la fuerza y el rendimiento en ejercicios intensos.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 mb-4">
-      <div class="card">
-        <img src="../assets/suplementos/combo whey protein y creatina.webp" class="card-img-top" alt="Combo whey protein y creatina">
-        <div class="card-body">
-          <h5 class="card-title">Combo whey protein y creatina</h5>
-          <p class="card-text">Combo para aumentar masa muscular y mejorar el rendimiento.</p>
-        </div>
-      </div>
-    </div>
-  </div>
 
-  <!-- Accesorios -->
-  <h2 class="mb-3 mt-5">Accesorios</h2>
-  <div class="row">
-    <div class="col-md-4 mb-4">
-      <div class="card">
-        <img src="../assets/accesorios/bolso everlast.webp" class="card-img-top" alt="Bolso everlast">
-        <div class="card-body">
-          <h5 class="card-title">Bolso everlast</h5>
-          <p class="card-text">Bolso deportivo práctico y resistente para tus entrenamientos.</p>
+        <div class="col-sm-6 col-md-4">
+          <div class="card h-100">
+            <img src="../assets/suplementos/combo whey protein y creatina.webp" class="card-img-top" alt="Combo whey protein y creatina" loading="lazy">
+            <div class="card-body">
+              <h5 class="card-title">Combo whey + creatina</h5>
+              <p class="card-text">Combo ideal para maximizar resultados.</p>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-    <div class="col-md-4 mb-4">
-      <div class="card">
-        <img src="../assets/accesorios/bolso trendy mujer.webp" class="card-img-top" alt="Bolso trendy">
-        <div class="card-body">
-          <h5 class="card-title">Bolso trendy</h5>
-          <p class="card-text">Cómodo y ligero para llevar tu ropa y accesorios.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 mb-4">
-      <div class="card">
-        <img src="../assets/accesorios/kit bandas elasticas.webp" class="card-img-top" alt="Kit bandas elasticas">
-        <div class="card-body">
-          <h5 class="card-title">Kit bandas elasticas</h5>
-          <p class="card-text">Versátil para ejercicios de fuerza y estiramiento.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 mb-4">
-      <div class="card">
-        <img src="../assets/accesorios/guantes de gimnasio.webp" class="card-img-top" alt="Guantes de gimnasio">
-        <div class="card-body">
-          <h5 class="card-title">Guantes de gimnasio</h5>
-          <p class="card-text">Protegen tus manos y mejoran el agarre durante el entrenamiento.</p>
-        </div>
-      </div>
-    </div>
-  </div>
 
-</main>
+      </div>
+    </section>
 
-<footer class="bg-dark text-white text-center py-3 mt-5">
-  <p>© 2025 GYM-FIT. Todos los derechos reservados.</p>
-</footer>
+    <!-- ACCESORIOS -->
+    <section>
+      <h2 class="mb-3">Accesorios</h2>
+      <div class="row g-4">
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+        <div class="col-sm-6 col-md-4">
+          <div class="card h-100">
+            <img src="../assets/accesorios/bolso everlast.webp" class="card-img-top" alt="Bolso Everlast" loading="lazy">
+            <div class="card-body">
+              <h5 class="card-title">Bolso Everlast</h5>
+              <p class="card-text">Resistente y práctico para entrenar.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4">
+          <div class="card h-100">
+            <img src="../assets/accesorios/bolso trendy mujer.webp" class="card-img-top" alt="Bolso trendy" loading="lazy">
+            <div class="card-body">
+              <h5 class="card-title">Bolso trendy</h5>
+              <p class="card-text">Cómodo y liviano para el día a día.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4">
+          <div class="card h-100">
+            <img src="../assets/accesorios/kit bandas elasticas.webp" class="card-img-top" alt="Kit bandas elásticas" loading="lazy">
+            <div class="card-body">
+              <h5 class="card-title">Kit bandas elásticas</h5>
+              <p class="card-text">Versátil para fuerza y estiramientos.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4">
+          <div class="card h-100">
+            <img src="../assets/accesorios/guantes de gimnasio.webp" class="card-img-top" alt="Guantes de gimnasio" loading="lazy">
+            <div class="card-body">
+              <h5 class="card-title">Guantes de gimnasio</h5>
+              <p class="card-text">Protección y mejor agarre al entrenar.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-dark text-white text-center py-3 mt-5">
+    <p class="mb-0">© 2025 GYM-FIT. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

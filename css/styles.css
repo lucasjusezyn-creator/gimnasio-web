@@ -1,24 +1,126 @@
-/* reset */
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+/* RESET BÁSICO */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+/* BODY */
 body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
   background-color: #f8f9fa;
+  color: #212529;
 }
 
+/* NAVBAR */
+.navbar .navbar-brand img {
+  display: block;
+  height: 50px; 
+  object-fit: contain; 
+}
+
+/* NAV LINK */
+.navbar-nav .nav-link {
+  margin-left: 1rem;
+  font-size: 1.05rem;
+}
+
+/* MAIN TITLES */
 h1, h2 {
-  color: #343a40;
+  color: #212529;
 }
 
+/* CARD GENERAL */
+.card {
+  height: 100%; 
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: #fff;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* IMÁGENES DE CARD */
+.card-img-top {
+  height: 220px; 
+  object-fit: cover; 
+}
+
+/* CUERPO DE CARD */
+.card-body {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.card-title {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.card-text {
+  flex-grow: 1; 
+  font-size: 0.95rem;
+}
+
+/* FOOTER */
 footer {
-  background-color: #343a40;
-  color: white;
-  padding: 20px;
+  background-color: #212529;
+  color: #fff;
   text-align: center;
+  padding: 1rem 0;
+  margin-top: 3rem;
+  font-size: 0.9rem;
 }
 
+/* FORMULARIO CONTACTO */
+form .form-label {
+  font-weight: bold;
+}
 
+form input, form textarea {
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+  padding: 0.5rem;
+  width: 100%;
+}
 
+form button {
+  background-color: #212529;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+form button:hover {
+  background-color: #343a40;
+}
+
+/* RESPONSIVE */
+@media (max-width: 991px) {
+  .card-img-top {
+    height: 200px;
+  }
+}
+
+@media (max-width: 767px) {
+  .card-img-top {
+    height: 180px;
+  }
+
+  .navbar-nav {
+    text-align: center;
+  }
+}
