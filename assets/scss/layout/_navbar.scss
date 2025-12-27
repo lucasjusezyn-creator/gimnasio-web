@@ -1,0 +1,11 @@
+.navbar {
+  background-color: $color-dark;
+
+  .nav-link {
+    color: $color-light;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

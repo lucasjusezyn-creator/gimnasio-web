@@ -1,0 +1,13 @@
+// BASE
+@import "base/variables";
+@import "base/mixins";
+@import "base/reset";
+
+// LAYOUT
+@import "layout/navbar";
+@import "layout/footer";
+
+// PAGES
+@import "pages/home";
+@import "pages/productos";
+@import "pages/contacto";

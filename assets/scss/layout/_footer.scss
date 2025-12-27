@@ -1,0 +1,6 @@
+footer {
+  @include flex-center;
+  background-color: $color-dark;
+  color: $color-light;
+  padding: 1rem;
+}
